@@ -1,8 +1,8 @@
 ---
 layout: page
-title: PGDH18
-tagline: Population Genetics and Demographic History: model-based approaches
-description: Hands-on course with a practical approach in the analysis of genetic and genomic data
+title: ELB18S 
+tagline: Entry Level Bioinformatics (Second Course in 2018)
+description: Entry level course with a soft introduction to NGS data analysis
 ---
 
 
