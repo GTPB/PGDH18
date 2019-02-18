@@ -8,6 +8,7 @@ description: Hands-on course with a practical approach in the analysis of geneti
 
 ![Sub-continental origin of European haplotypes derived from admixed genomes](./pages/images/PGDH18-entry_image.png)
 
+<br/>
 
 ## Course Description
 
@@ -16,6 +17,8 @@ Genetic and genomic data are increasingly used by ecologists and evolutionary bi
 In this five-day course we will introduce the main concepts that underlie many of the models that are frequently used in population genetics. We will focus on the importance of demographic history (e.g. effective sizes and migration patterns) in shaping genetic data. We will go through the basic notions that are central to population genetics, insisting particularly on the statistics used to measure genetic diversity and population differentiation. The course will also cover a short introduction to coalescent theory, Bayesian inference in population genetics and data simulation. We will also introduce methods that have been recently developed to analyse genomic data such as the PSMC method of Li and Durbin that reconstructs the demographic history of a species or population with the genome of a single individual.
 
 Most theory will be put into practice in practical sessions, analyzing real and/or simulated datasets. In these sessions, we will look at measures of genetic diversity and differentiation and use methods to infer demographic history. We will learn how to perform coalescent simulations of genetic/genomic data (using mainly Richard Hudson's ms program). We will also show how to simulate data for PSMC analyses. This will allow users to compare the PSMC obtained with real data to those obtained for the models they used. We will also look at how habitat fragmentation can be simulated using an in-house program. Some exercises will make use of R scripts (R being a freely available statistical program). Basic R knowledge is a pre-requisite but we will provide a short introduction to R. The R statistical package is a very powerful tool to analyse data outputs from many population genetics software, and can also be used to simulate genetic data under simple demographic scenarios. 
+
+---
 
 ## Detailed Program
 
