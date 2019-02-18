@@ -35,7 +35,7 @@ His main interests span from conservation genetics of wild and domesticated spec
 ## Willy Rodriguez
 **Affiliation:** Institut National de la Recherche Agronomique, Orsay, FR
 
-   <img src="./images/instructors/Daniel_Sobral.jpg" height="220" width="170" align="left" style="margin-right: 3%; margin-bottom: 0.3em;">
+   <img src="./images/instructors/Willy_Rodriguez.jpg" height="220" width="170" align="left" style="margin-right: 3%; margin-bottom: 0.3em;">
 
 **Willy Rodriguez** obtained his PhD in 2016 at the Institut de MathÃ©matiques de Toulouse (IMT), in France, under the co-supervision of Olivier Mazet (IMT) and Lounes Chikhi (CNRS/IGC). 
 
