@@ -22,7 +22,7 @@ Since June 2010 he has held a joint position in Mathematics and Biology at the U
 Instituto Gulbenkian de Ciência, Oeiras, PT
 
 
-  <img src="./images/instructors/Lounès_Chikhi.jpg" height="220" width="170" align="left" style="margin-right: 3%; margin-bottom: 0.3em;">
+  <img src="./images/instructors/Lounes_Chikhi.jpg" height="220" width="170" align="left" style="margin-right: 3%; margin-bottom: 0.3em;">
 
 **Lounès Chikhi** obtained his PhD in 1995 from the University of Paris working in population genetics of fish, in Montpellier, SÃ¨te and Abidjan. He is a CNRS Senior Researcher based in Toulouse, France but has also been working at the IGC since 2005, where he is the PI of the Population and Conservation Genetics group. 
 
