@@ -30,4 +30,4 @@ Most theory will be put into practice in practical sessions, analyzing real and/
 ### [Instructors](pages/instructors.md)
 ---
 
-The source for this course webpage is [on github](https://github.com/GTPB/PGH18).
+The source for this course webpage is [on github](https://github.com/GTPB/PGDH18).
