@@ -5,6 +5,7 @@ tagline: Population Genetics and Demographic History: model-based approaches
 description: Hands-on course with a practical approach in the analysis of genetic and genomic data
 ---
 
+
 ![Sub-continental origin of European haplotypes derived from admixed genomes](./pages/images/PGDH18-entry_image.png)
 
 
