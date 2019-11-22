@@ -63,7 +63,7 @@ Most theory will be put into practice in practical sessions, analyzing real and/
 
 **Note -** All the datasets and documentation used for this training course is available in the following button. You need to unzip this file and follow the instructions throughout the documentation.
 
-[**Download PGDH18 Datasets and Docs**](https://github.com/GTPB/PGDH18/archive/data.zip){: .btn} <sub><i>File Size: 303,0MB</i></sub>
+[**Download PGDH18 Datasets and Docs**](https://github.com/GTPB/PGDH18/archive/data.zip){: .btn} <sub><i>File Size: 660,0MB</i></sub>
 
 ---
 
