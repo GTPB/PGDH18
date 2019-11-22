@@ -2,6 +2,13 @@
 layout: page
 title: Instructors
 description: PGDH18 Course instructors description
+schemadotorg:
+  "@context": http://schema.org/
+  "@type": CreativeWork
+  "genre": TrainingMaterial
+  isPartOf:
+      url: "https://gtpb.github.io/PGDH18/"
+      name: "PGDH18 - Population Genetics and Demographic History - model-base aproaches"
 ---
 
 ## Mark Beaumont
@@ -9,7 +16,7 @@ description: PGDH18 Course instructors description
 
 <img src="./images/instructors/Mark_Beaumont.jpg" height="220" width="170" align="left" style="margin-right: 3%; margin-bottom: 0.3em;">
 
-**Mark Beaumont** obtained his PhD in population genetics at the University of Nottingham in 1988. His main research focuses on how genetic information can be used to uncover the demographic history of populations, and how to disentangle the effects of demography and selection, often in the context of conservation genetics. 
+**Mark Beaumont** obtained his PhD in population genetics at the University of Nottingham in 1988. His main research focuses on how genetic information can be used to uncover the demographic history of populations, and how to disentangle the effects of demography and selection, often in the context of conservation genetics.
 
 Since June 2010 he has held a joint position in Mathematics and Biology at the University of Bristol. Previously he worked at the University of Reading (1999-2010), for the Zoological Society of London (1995-1999), as well as holding a number of earlier postdoctoral positions.
 
@@ -24,11 +31,11 @@ Instituto Gulbenkian de Ciência, Oeiras, PT
 
   <img src="./images/instructors/Lounes_Chikhi.jpg" height="220" width="170" align="left" style="margin-right: 3%; margin-bottom: 0.3em;">
 
-**Lounès Chikhi** obtained his PhD in 1995 from the University of Paris working in population genetics of fish, in Montpellier, SÃ¨te and Abidjan. He is a CNRS Senior Researcher based in Toulouse, France but has also been working at the IGC since 2005, where he is the PI of the Population and Conservation Genetics group. 
+**Lounès Chikhi** obtained his PhD in 1995 from the University of Paris working in population genetics of fish, in Montpellier, SÃ¨te and Abidjan. He is a CNRS Senior Researcher based in Toulouse, France but has also been working at the IGC since 2005, where he is the PI of the Population and Conservation Genetics group.
 
-He held post-doctoral positions at the Universities of Padua and Ferrara, at the Institute of Zoology in London, at Queen Mary and Westfield College and at University College London, and Cardiff University. He is interested in the use of genetic data to improve our understanding of the past demographic history of different species, including our own. 
+He held post-doctoral positions at the Universities of Padua and Ferrara, at the Institute of Zoology in London, at Queen Mary and Westfield College and at University College London, and Cardiff University. He is interested in the use of genetic data to improve our understanding of the past demographic history of different species, including our own.
 
-His main interests span from conservation genetics of wild and domesticated species to human recent evolutionary history. He has been increasingly interested in population and social structure and how they, together with sampling, influence demographic inference. 
+His main interests span from conservation genetics of wild and domesticated species to human recent evolutionary history. He has been increasingly interested in population and social structure and how they, together with sampling, influence demographic inference.
 
 ---
 
@@ -37,11 +44,11 @@ His main interests span from conservation genetics of wild and domesticated spec
 
    <img src="./images/instructors/Willy_Rodriguez.jpg" height="220" width="170" align="left" style="margin-right: 3%; margin-bottom: 0.3em;">
 
-**Willy Rodriguez** obtained his PhD in 2016 at the Institut de MathÃ©matiques de Toulouse (IMT), in France, under the co-supervision of Olivier Mazet (IMT) and Lounes Chikhi (CNRS/IGC). 
+**Willy Rodriguez** obtained his PhD in 2016 at the Institut de MathÃ©matiques de Toulouse (IMT), in France, under the co-supervision of Olivier Mazet (IMT) and Lounes Chikhi (CNRS/IGC).
 
 He is a Mathematician by background and worked on the development of statistical methods to use of genomic data to reconstruct the history of species.
 
-He is interested in the development of computational and analytical methods to understand the relative roles of changes in population size and changes in connectivity in the patterns observed in present-day populations. 
+He is interested in the development of computational and analytical methods to understand the relative roles of changes in population size and changes in connectivity in the patterns observed in present-day populations.
 
 After a post-doctoral project at INRA in Orsay University in France, he is now a post-doctoral researcher at IMT.
 
@@ -52,11 +59,11 @@ After a post-doctoral project at INRA in Orsay University in France, he is now a
 
    <img src="./images/instructors/Vitor_Sousa.jpg" height="220" width="170" align="left" style="margin-right: 3%; margin-bottom: 0.3em;">
 
-**Vitor Sousa** obtained his PhD in 2010 from the Universidade de Lisboa, after developing is thesis work at the IGC in Oeiras, PT under the co-supervision of LounÃ¨s Chikhi (IGC) and Manuela Coelho (FCUL). He was a postdoctoral researcher in Jody Hey's lab (Rutgers University, New Jersey, USA) from 2010 to 2013, and in Laurent Excoffier's lab (University of Bern and Swiss Institute of Bioinformatics, Switzerland) from 2013 to 2016. 
+**Vitor Sousa** obtained his PhD in 2010 from the Universidade de Lisboa, after developing is thesis work at the IGC in Oeiras, PT under the co-supervision of LounÃ¨s Chikhi (IGC) and Manuela Coelho (FCUL). He was a postdoctoral researcher in Jody Hey's lab (Rutgers University, New Jersey, USA) from 2010 to 2013, and in Laurent Excoffier's lab (University of Bern and Swiss Institute of Bioinformatics, Switzerland) from 2013 to 2016.
 
-He is currently an invited Researcher at the cE3c in order to address biological questions arising in the fields of speciation, conservation, molecular ecology and human genetics from a population genomics perspective. His research aims at understanding the roles of demography and selection in the structure and divergence of populations. 
+He is currently an invited Researcher at the cE3c in order to address biological questions arising in the fields of speciation, conservation, molecular ecology and human genetics from a population genomics perspective. His research aims at understanding the roles of demography and selection in the structure and divergence of populations.
 
-In particular, he is interested in developing inference methods to extract such information from population genomics data, and hence his work involves population genetics theory, modeling, statistics and data analysis. For this purpose he has developed approximate Bayesian computation (ABC) methods to study population admixture, full likelihood methods to study population divergence and detect the effects of natural selection, and composite likelihood methods to infer the demographic history of populations. 
+In particular, he is interested in developing inference methods to extract such information from population genomics data, and hence his work involves population genetics theory, modeling, statistics and data analysis. For this purpose he has developed approximate Bayesian computation (ABC) methods to study population admixture, full likelihood methods to study population divergence and detect the effects of natural selection, and composite likelihood methods to infer the demographic history of populations.
 
 <br/>
 
