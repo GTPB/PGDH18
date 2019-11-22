@@ -71,7 +71,7 @@ Most theory will be put into practice in practical sessions, analyzing real and/
 
 ---
 
-The source for this course webpage is [on github](https://github.com/GTPB/ABSTAT18).
+The source for this course webpage is [on github](https://github.com/GTPB/PGDH18).
 
 <br/>
 
