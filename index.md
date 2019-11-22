@@ -8,7 +8,7 @@ schemadotorg:
   # Course details
        # "name" -> The name of the course
        # "description" -> Short description of the course
-  name: "PGDH18 - Population Genetics and Demographic History - model-base aproaches"
+  name: "PGDH18 - Population Genetics and Demographic History: model-base aproaches"
   description: "Training material for hands-on course with a practical approach in the analysis of genetic and genomic data."
 
   # Keywords -> Consult EDAM:Topic
