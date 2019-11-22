@@ -1,0 +1,83 @@
+{
+  "path2ms" : "./",
+  "use_real_data" : [{
+    "psmc_results_file" : "S_A04_py_500.psmc",
+    "label":"IICR from real data",
+    "color": "r",
+    "linestyle": "-",
+    "linewidth": 1,
+    "alpha": 1  
+  }],
+  "scenarios" : [
+  {"ms_command":"ms 2 10000 -T -L -I 15 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 -eN 0.45 25 -eN 1 10 -eM 2 0.05 -eN 3 5 -eM 4.5 30 -eM 5.5 0.5 -eM 10 20 -eM 20 0.1 -eM 25 40",
+    "label":"n islands. n=15 M=var",
+    "color": "g",
+    "linestyle": ":",
+    "linewidth": 1,
+    "alpha": 1
+    }
+  ],
+  "theoretical_IICR_nisland" : [
+    {"n": 15,
+    "M": 50,
+    "sampling_same_island": 1,
+    "label": "theoretical IICR T2 n15M50",
+    "color": "k",
+    "linestyle": "-",
+    "linewidth": 1,
+    "alpha": 0.5    
+    },
+    {"n": 15,
+    "M": 1,
+    "sampling_same_island": 1,
+    "label": "theoretical IICR T2 n15M1",
+    "color": "k",
+    "linestyle": "-",
+    "linewidth": 1,
+    "alpha": 0.5    
+    },
+    {"n": 15,
+    "M": 0.1,
+    "sampling_same_island": 1,
+    "label": "theoretical IICR T2 n15M01",
+    "color": "k",
+    "linestyle": "-",
+    "linewidth": 1,
+    "alpha": 0.5    
+    }
+  ],
+  "peicewise_constant_functions":[
+  ],  
+  "computation_parameters" : {
+    "x_vector_type": "log",
+    "start": 0,
+    "end": 100,
+    "number_of_values": 64,
+    "pattern": "4*1+25*2+4+6"
+    },
+  "custom_x_vector": {
+  "set_custom_xvector": 0,
+  "x_vector": 0
+  },
+  "scale_params":{
+  "N0": 0.005,
+  "generation_time": 1
+  },
+  "plot_params":{
+    "plot_theor_IICR": 1,
+    "plot_real_ms_history": 0,
+    "plot_limits": [1e-3, 1, 0, 4],
+    "plot_title": "IICR example",
+    "plot_xlabel": "time ",
+    "plot_ylabel": "IICR"
+  },
+  "number_of_repetitions": {
+  "n_rep": 1
+  },
+  "vertical_lines":[0.45, 1, 4.5],
+  "plot_densities": {
+  "densities_to_plot": [],
+  "x_lim": [-0.05, 2],
+  "y_lim": [0, 0.5]
+  }
+}
