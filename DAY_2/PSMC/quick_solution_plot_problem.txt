@@ -1,0 +1,4 @@
+python3 -mpip install -U pip
+python3 -mpip install -U matplotlib
+
+python3 ./plot_results.py

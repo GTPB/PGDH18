@@ -1,0 +1,18 @@
+# To install jupyter
+conda install jupyter
+
+
+# To install the R kernel
+install.packages('devtools')
+devtools::install_github('IRkernel/IRkernel')
+# or devtools::install_local('IRkernel-master.tar.gz')
+IRkernel::installspec()  # to register the kernel in the current R installation
+
+
+# Run jupyter
+jupyter notebook
+
+
+# More details in
+https://github.com/IRkernel/IRkernel
+

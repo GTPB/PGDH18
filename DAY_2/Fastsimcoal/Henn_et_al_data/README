@@ -1,0 +1,10 @@
+Data from Henn et al, PNAS, 2015.
+Distance from sub-Saharan Africa predicts mutational
+load in diverse human genomes.
+www.pnas.org/cgi/doi/10.1073/pnas.1510805112
+
+Discarded sites with missing data, and focused on San and Maya individuals.
+
+Assumed that 44Mb were sequenced without error, as the data was generated with an exome capture array, targeted at 44Mb.
+
+Assumed a mutation rate of 1.4e-8 per site/per generation.

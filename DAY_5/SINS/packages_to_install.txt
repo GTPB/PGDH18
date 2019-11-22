@@ -1,0 +1,1 @@
+install.packages(c("reshape2", "ggplot2", "plyr", "adegenet", "ggplot2"))

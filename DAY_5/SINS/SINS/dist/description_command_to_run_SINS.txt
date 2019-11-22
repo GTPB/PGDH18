@@ -1,0 +1,10 @@
+This text file explains how to use SINS2.sh script to run a simulation on SINS.
+Open the SINS2.sh script, and modify it according to your needs.
+
+
+-projectName: under this argument you need to specify the name of the scenario to simulate
+-numberOfSimulation: specify how many replicates do you want to simulate for a scenario
+-parallel: "yes" if you want to simulate differnt replicates of teh same scenario in parallel, otherwise "no".
+-outputFormat: leave it as "adegenet"
+-outputFile: specify in which folder the output of the simulated scenario will be saved.
+-verbose: if "true", a line for each replicate will appear on the screen during the simulation

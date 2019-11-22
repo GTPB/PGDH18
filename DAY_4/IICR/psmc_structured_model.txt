@@ -1,0 +1,19 @@
+### We will follow the tutorial in
+ 
+http://willyrv.github.io/tutorials/bioinformatics/ms-psmc.html
+
+But we will change the ms commands
+
+### 1 - Simulate data
+./ms 2 100 -t 3000 -r 600 3000000 -I 10 2 0 0 0 0 0 0 0 0 0 1 -p 8  > nIslands_n10_M1.ms
+./ms 2 10 -t 30000 -r 6000 30000000 -I 10 2 0 0 0 0 0 0 0 0 0 10 -p 8  > nIslands_n10_M10.ms
+
+### 2 - Convert to the input of PSMC
+./ms2psmcfa.py ./nIslands_n10_M1.ms > nIslands_n10_M1.psmcfa
+./ms2psmcfa.py ./nIslands_n10_M10.ms > nIslands_n10_M10.psmcfa
+
+### 3 - Run the PSMC 
+./psmc -N25 -t15 -r5 -p 4+25*2+4+6 -o dem_history_nIslands_n10_M1.psmc ./nIslands_n10_M1.psmcfa
+./psmc -N25 -t15 -r5 -p 4+25*2+4+6 -o dem_history_nIslands_n10_M10.psmc ./nIslands_n10_M10.psmcfa
+
+

@@ -1,0 +1,89 @@
+
+Demes initial conditions
+========================
+
+DEMES
+======================
+--DEME 0--
+Deme size   : 10000000
+Sample Grps : 23
+ - Size:500 Age:     0 Deme: 0 StatGrp: 0
+ - Size:  1 Age:   198 Deme: 0 StatGrp: 2
+ - Size:  3 Age:   200 Deme: 0 StatGrp: 2
+ - Size:  1 Age:   204 Deme: 0 StatGrp: 2
+ - Size:  3 Age:   230 Deme: 0 StatGrp: 2
+ - Size:  2 Age:   250 Deme: 0 StatGrp: 2
+ - Size:  1 Age:   280 Deme: 0 StatGrp: 1
+ - Size:  7 Age:   282 Deme: 0 StatGrp: 1
+ - Size:  4 Age:   289 Deme: 0 StatGrp: 1
+ - Size:  8 Age:   290 Deme: 0 StatGrp: 1
+ - Size:  1 Age:   290 Deme: 0 StatGrp: 2
+ - Size:  4 Age:   295 Deme: 0 StatGrp: 1
+ - Size:  3 Age:   297 Deme: 0 StatGrp: 1
+ - Size:  5 Age:   299 Deme: 0 StatGrp: 1
+ - Size:  1 Age:   332 Deme: 0 StatGrp: 2
+ - Size:  1 Age:   334 Deme: 0 StatGrp: 2
+ - Size:  2 Age:   348 Deme: 0 StatGrp: 2
+ - Size:  5 Age:   350 Deme: 0 StatGrp: 2
+ - Size:  1 Age:   352 Deme: 0 StatGrp: 2
+ - Size:  1 Age:   354 Deme: 0 StatGrp: 2
+ - Size:  1 Age:   358 Deme: 0 StatGrp: 2
+ - Size:  1 Age:   400 Deme: 0 StatGrp: 2
+ - Size:  1 Age:   618 Deme: 0 StatGrp: 2
+Growth rate : -0.0169856
+
+---------------------------------------
+
+MIGRATION MATRIX 0
+=================
+    0.0000 
+
+
+
+HISTORICAL EVENTS
+=================
+
+Event #1
+----------
+
+
+Time             : 300
+Source           : 0
+Sink             : 0
+Migrants         : 1.0000
+New size         : 1.0000
+New growth rate  : -0.0017
+New migr. matrix : 0
+
+---------------------------------------
+
+Event #2
+----------
+
+
+Time             : 1800
+Source           : 0
+Sink             : 0
+Migrants         : 1.0000
+New size         : 1.0577
+New growth rate  : 0.0000
+New migr. matrix : 0
+
+---------------------------------------
+
+
+Final results
+=============
+
+Data type : DNA
+Heterogeneity of mutation rates: Gamma value =    0.20500
+Proportion of transitions :   98.41000 (ts/tv=61.89308)
+Number of loci : 350
+Total mutation rate per generation : 2
+Mutation rate per locus per generation : 0
+Mean length of the trees (subst. rate per site) : 18.07680 +-    3.91240
+
+Mean length of the trees (total number of mutations) : 6331.13000 +- 1376.14197
+
+
+Total time for 100 simulations: 153828.00000 ms

@@ -1,0 +1,74 @@
+#This simulates microsatellite data
+urn.example <- function(ss,theta,mrca.type)
+{
+    vec <- numeric(ss)
+    vec[1] <- mrca.type
+    vec[2] <- vec[1]
+    nlin <- 2
+    for(j in 1:10000){
+        rr <- runif(1)
+        pmut <- theta/(theta+nlin-1)
+        ic <- disrand(1,1,nlin)
+        if(pmut > rr){
+            vec[ic] <- vec[ic] + ifelse(disrand(1,0,1) == 0,-1,1)
+        }
+        else{
+            #print(paste(as.character(nlin),as.character(ss)))
+            if(nlin >= ss){
+                return(vec)
+            }
+            vec[nlin+1] <- vec[ic]
+            nlin <- nlin+1
+        }
+    }
+}
+
+
+disrand <- function(n,lower,upper)
+{
+    vec <-  floor(runif(n,lower,upper+1))
+    vec
+}
+
+#This measures heterozygosity
+het.measure <- function(vec)
+{
+    xx <- as.vector(table(vec))/length(vec)
+    length(vec)/(length(vec)-1)*(1-sum(xx^2))
+}
+
+#This simulates data sets using the microsat simulator urn.example()
+simulate.hets <- function(ss,thetavals,mrca.type)
+{
+    num <- length(thetavals)
+    het <- numeric(num)
+    vv <- numeric(num)
+    na <- numeric(num)
+    for(j in 1:num){
+        data <- urn.example(ss,thetavals[j],mrca.type)
+        het[j] <- het.measure(data)
+        vv[j] <- var(data)
+        na[j] <- length(table(data))
+    }
+    cbind(het,vv,na)
+}
+
+#This does ABC by pure rejection
+reject.func <- function(param,ss,target,tol)
+{
+    wt <- abs(ss[,1] - target[1])/target[1] < tol &
+          abs(ss[,2] - target[2])/target[2] < tol  &
+          abs(ss[,3] - target[3])/target[3] < tol
+    param[wt]
+}
+
+
+#This plots frequency distributions
+plot.freqs <- function(vec)
+{
+    x <- as.numeric(names(table(vec)))
+    y <- as.vector(table(vec))/length(vec)
+
+    plot(x,y,type="n")
+    segments(x,0,x,y,lwd=5)
+}

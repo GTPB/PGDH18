@@ -1,0 +1,10 @@
+To have the latest version of the IICR Estimator set of python scripts do as follows:
+
+1. Type:
+
+git clone https://github.com/willyrv/IICREstimator
+
+2. Remember that you need to add a working (compiled) version of ms inside the folder
+
+
+
