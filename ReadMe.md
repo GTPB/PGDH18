@@ -1,4 +1,5 @@
 ## PGDH18 - Population Genetics and Demographic History: model-based approaches
+[![DOI](https://zenodo.org/badge/171314624.svg)](https://zenodo.org/badge/latestdoi/171314624)
 
 ###  Instituto Gulbenkian de Ciência (IGC) - Oeiras, Portugal - May 14<sup>th</sup> - May 18<sup>th</sup> 2018
 
